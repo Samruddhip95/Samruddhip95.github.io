@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css/family=Raleway');
+@import url('https://fonts.googleapis.com/css/family=Oswald');
+html,body{
+    height: 100%;
+  width: 100%;
+
+}
+.navbar{
+  background-color: #007399;
+  padding: 0 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a{
+  color: #f2f2f2;
+}
+.home{
+  height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url('img/mountains.jpeg') ;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.stack{
+  height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url('img/background.jpg') ;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.main-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.main-text h1,h3{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-shadow: 0px 0px 20px #000;
+}
+.middle{
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.padding{
+  padding: 50px 0;
+}
+.padding img{
+  width: 100%;
+}
+footer{
+  width: 100%;
+  background-color: #007399;
+  color: #f2f2f2;
+}
+.fa{
+  padding: 10 30 10 30;
+  font-size: 20px;
+  color: #f2f2f2;
+}
