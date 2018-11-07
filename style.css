@@ -1,38 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 @import url('https://fonts.googleapis.com/css/family=Raleway');
 @import url('https://fonts.googleapis.com/css/family=Oswald');
+
 html,body{
   height: 100%;
   width: 100%;
-
 }
+
 .navbar{
   background-color: #007399;
   padding: 0 0;
   font-size: 1.2em;
 }
+
 .navbar-brand{
   min-height: 55px;
   padding: 0 15px 5px;
 }
+
 .navbar-default .navbar-nav li a{
   color: #f2f2f2;
 }
+
 .home{
   height: 100%;
   width: 100%;
   margin: auto;
   background: url(img/home.jpeg) fixed ;
-  display: table;
-  top: 0;
-  background-size: cover;
-}
-.stack{
-  height: 90%;
-  width: 100%;
-  margin: auto;
-  background-image: url('img/background.jpg') ;
   display: table;
   top: 0;
   background-size: cover;
@@ -61,15 +54,15 @@ html,body{
 .padding img{
   width: 100%;
 }
-footer{
+
+.stack{
+  height: 90%;
   width: 100%;
-  background-color: #007399;
-  color: #f2f2f2;
-  text-decoration: none;
-}
-a:link {
-    color: white;
-    text-decoration: none;
+  margin: auto;
+  background-image: url('img/background.jpg') ;
+  display: table;
+  top: 0;
+  background-size: cover;
 }
 
 .logo{
@@ -84,15 +77,14 @@ a:link {
   background-size: cover;
 }
 
-
-
-/*--- Media Queries --*/
-@media screen and (max-width: 900px) {
-
+footer{
+  width: 100%;
+  background-color: #007399;
+  color: #f2f2f2;
+  text-decoration: none;
 }
-@media screen and (max-width: 768px) {
 
-}
-@media screen and (max-width: 480px) {
-
+a:link {
+    color: white;
+    text-decoration: none;
 }
