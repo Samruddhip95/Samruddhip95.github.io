@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 @import url('https://fonts.googleapis.com/css/family=Raleway');
 @import url('https://fonts.googleapis.com/css/family=Oswald');
 html,body{
@@ -21,7 +23,7 @@ html,body{
   height: 100%;
   width: 100%;
   margin: auto;
-  background-image: url('img/mountains.jpeg') ;
+  background: url(img/home.jpeg) fixed ;
   display: table;
   top: 0;
   background-size: cover;
@@ -35,13 +37,14 @@ html,body{
   top: 0;
   background-size: cover;
 }
+
 .main-text{
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.main-text h1,h3{
+.main-text h1, h3{
   font-family: 'Raleway', sans-serif;
   color: white;
   text-shadow: 0px 0px 20px #000;
@@ -62,16 +65,34 @@ footer{
   width: 100%;
   background-color: #007399;
   color: #f2f2f2;
-}
-.fa{
-  padding: 10 30 10 30;
-  font-size: 20px;
-  color: #f2f2f2;
-}
-.fa:hover{
-  color: black;
   text-decoration: none;
 }
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
 .logo{
-  max-width: 90px;
+  max-width: 60px;
+}
+#backgroundImage{
+  background: url(img/background1.jpg) fixed;
+  display: table;
+  height: 30%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+
 }
